@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css" >
+    <script src="https://kit.fontawesome.com/d306bc2417.js" crossorigin="anonymous"></script>
+    <title>Weather app</title>
+  </head>
+  <body>
+   <div class="container">
+    <div class="row">
+        <div class="head">
+        <div class="search">
+            <input type="text" placeholder="Search for a city" class="input-box"/>
+            <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+        </div>
+        <div class="weather">
+            <img src="./assets/two.png" alt="#" class="weather-img" />
+            <div class="cntnt">
+                <p class="temperature">19<sup>°C</sup></p>
+                <h3 class="description">Drizzling</h3>
+            </div>
+        </div>
+ 
+
+        <div class="details">
+            <div class="humidity">
+                <div class="text">
+                    <span id="humidity">12%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <div class="text">
+                    <span id="wind">5<sup>KPH</sup></span>
+                    <p>wind</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+   </div>
+   <script src="./script.js"></script>
+  </body>
+</html>
